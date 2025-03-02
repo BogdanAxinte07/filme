@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Adaugam variabile globale: */
+:root {
+  --text-primary: #010511;
+  --text-secondary: #078055;
+  --text-dark: #cfb75d;
+  --text-light: #eaeaea;
+
+  --bg-primary: #071761;
+  --bg-secondary: #dfedf5;
+  --bg-dark: #08122c;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Resetam proprietati default: */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+/* Customizam Bootstrap: */
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #2ffcb4;
+  border-color: #1feba3;
+}
+
+.text-primary {
+  color: #041c5e !important;
+}
+
+.text-secondary {
+  color: #167a57 !important;
+}
+
+.text-light {
+  color: #d64b4b !important;
+}
+
+.text-dark {
+  color: #6b603a !important;
+}
+
+.bg-primary {
+  background-color: #1e359b !important;
+}
+
+.bg-secondary {
+  background-color: #2175a5 !important;
+}
+
+.bg-dark {
+  background-color: #294696 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
 }
